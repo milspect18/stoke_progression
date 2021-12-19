@@ -11,6 +11,7 @@
 		E34FF557276FCBF800336D72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FF556276FCBF800336D72 /* ContentView.swift */; };
 		E34FF559276FCBF800336D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34FF558276FCBF800336D72 /* Assets.xcassets */; };
 		E34FF55C276FCBF800336D72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34FF55B276FCBF800336D72 /* Preview Assets.xcassets */; };
+		E34FF564276FCCE900336D72 /* main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E34FF562276FCCE900336D72 /* main.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E34FF556276FCBF800336D72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E34FF558276FCBF800336D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E34FF55B276FCBF800336D72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E34FF563276FCCE900336D72 /* main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = main.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E34FF554276FCBF800336D72 /* StokeProgresionApp.swift */,
 				E34FF556276FCBF800336D72 /* ContentView.swift */,
+				E34FF562276FCCE900336D72 /* main.xcdatamodeld */,
 				E34FF558276FCBF800336D72 /* Assets.xcassets */,
 				E34FF55A276FCBF800336D72 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E34FF557276FCBF800336D72 /* ContentView.swift in Sources */,
+				E34FF564276FCCE900336D72 /* main.xcdatamodeld in Sources */,
 				E34FF555276FCBF800336D72 /* StokeProgresionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +345,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E34FF562276FCCE900336D72 /* main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E34FF563276FCCE900336D72 /* main.xcdatamodel */,
+			);
+			currentVersion = E34FF563276FCCE900336D72 /* main.xcdatamodel */;
+			path = main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E34FF549276FCBF800336D72 /* Project object */;
 }
