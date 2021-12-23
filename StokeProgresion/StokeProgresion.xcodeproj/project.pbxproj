@@ -11,6 +11,7 @@
 		E32B81932773FBBA00EDD725 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B81922773FBBA00EDD725 /* Project-CoreDataHelpers.swift */; };
 		E32B81952774D0A800EDD725 /* EditItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B81942774D0A800EDD725 /* EditItemView.swift */; };
 		E32B81972774D53100EDD725 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B81962774D53100EDD725 /* ItemRowView.swift */; };
+		E32B81992774D78D00EDD725 /* Binding-OnChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B81982774D78D00EDD725 /* Binding-OnChange.swift */; };
 		E34FF555276FCBF800336D72 /* StokeProgresionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FF554276FCBF800336D72 /* StokeProgresionApp.swift */; };
 		E34FF557276FCBF800336D72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FF556276FCBF800336D72 /* ContentView.swift */; };
 		E34FF559276FCBF800336D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34FF558276FCBF800336D72 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		E32B81922773FBBA00EDD725 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		E32B81942774D0A800EDD725 /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		E32B81962774D53100EDD725 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
+		E32B81982774D78D00EDD725 /* Binding-OnChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding-OnChange.swift"; sourceTree = "<group>"; };
 		E34FF551276FCBF800336D72 /* StokeProgresion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StokeProgresion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34FF554276FCBF800336D72 /* StokeProgresionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StokeProgresionApp.swift; sourceTree = "<group>"; };
 		E34FF556276FCBF800336D72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				E34FF565276FD09900336D72 /* DataController.swift */,
 				E34FF556276FCBF800336D72 /* ContentView.swift */,
 				E32B81942774D0A800EDD725 /* EditItemView.swift */,
+				E32B81982774D78D00EDD725 /* Binding-OnChange.swift */,
 				E34FF56C276FDB5A00336D72 /* HomeView.swift */,
 				E34FF56E276FDC4000336D72 /* ProjectsView.swift */,
 				E32B81962774D53100EDD725 /* ItemRowView.swift */,
@@ -183,6 +186,7 @@
 				E34FF566276FD09900336D72 /* DataController.swift in Sources */,
 				E32B81972774D53100EDD725 /* ItemRowView.swift in Sources */,
 				E34FF564276FCCE900336D72 /* main.xcdatamodeld in Sources */,
+				E32B81992774D78D00EDD725 /* Binding-OnChange.swift in Sources */,
 				E34FF56D276FDB5A00336D72 /* HomeView.swift in Sources */,
 				E34FF555276FCBF800336D72 /* StokeProgresionApp.swift in Sources */,
 				E32B81912773FA5600EDD725 /* Item-CoreDataHelpers.swift in Sources */,
