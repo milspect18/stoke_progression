@@ -26,12 +26,12 @@ struct EditItemView: View {
     var body: some View {
         Form {
             Section(header: Text("Item Settings")) {
-                TextField("Item Name", text: $title)
-                TextField("Description", text: $detail)
+                TextField("Item Name", text: $title.onChange(update))
+                TextField("Description", text: $detail.onChange(update))
             }
             
             Section(header: Text("Priority")) {
-                Picker("Priority", selection: $priority) {
+                Picker("Priority", selection: $priority.onChange(update)) {
                     Text("Low").tag(1)
                     Text("Medium").tag(2)
                     Text("High").tag(3)
@@ -40,11 +40,10 @@ struct EditItemView: View {
             }
             
             Section {
-                Toggle("Completed", isOn: $completed)
+                Toggle("Completed", isOn: $completed.onChange(update))
             }
         }
         .navigationTitle("Edit Item")
-        .onDisappear { update()  }
     }
     
     func update() {
