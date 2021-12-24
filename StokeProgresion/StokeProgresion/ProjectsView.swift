@@ -35,6 +35,26 @@ struct ProjectsView: View {
                         ForEach(project.allItems) { item in
                             ItemRowView(item: item)
                         }
+                        .onDelete { offsets in
+                            let allItems = project.allItems
+                            
+                            offsets.forEach { dataController.delete(allItems[$0]) }
+                            
+                            dataController.save()
+                        }
+                        
+                        if showClosedProjects == false {
+                            Button {
+                                withAnimation {
+                                    let item = Item(context: moc)
+                                    item.project = project
+                                    item.creationDate = Date()
+                                    dataController.save()
+                                }
+                            } label: {
+                                Label("Add Item", systemImage: "plus")
+                            }
+                        }
                     }
                 }
             }
