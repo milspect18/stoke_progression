@@ -9,6 +9,12 @@ import Foundation
 
 
 extension Project {
+    static let colors = [
+        "Pink", "Purple", "Red", "Orange", "Gold",
+        "Green", "Teal", "Light Blue", "Dark Blue",
+        "Midnight", "Dark Gray", "Gray"
+    ]
+    
     var projectTitle: String { title ?? "" }
     var projectDetail: String { detail ?? "" }
     var projectCreationDate: Date { creationDate ?? Date() }
