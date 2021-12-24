@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct ProjectsView: View {
+    @EnvironmentObject var dataController: DataController
+    @Environment(\.managedObjectContext) var moc
+    
     static let openTag: String? = "open"
     static let closedTag: String? = "closed"
+    
     let showClosedProjects: Bool
     let projects: FetchRequest<Project>
     
@@ -36,6 +40,20 @@ struct ProjectsView: View {
             }
             .listStyle(InsetGroupedListStyle())
             .navigationTitle(showClosedProjects ? "Closed Projects" : "Open Projects")
+            .toolbar {
+                if showClosedProjects == false {
+                    Button {
+                        withAnimation {
+                            let project = Project(context: moc)
+                            project.closed = false
+                            project.creationDate = Date()
+                            dataController.save()
+                        }
+                    }   label: {
+                        Label("Add Project", systemImage: "plus")
+                    }
+                }
+            }
         }
         .navigationViewStyle(.stack)
     }
