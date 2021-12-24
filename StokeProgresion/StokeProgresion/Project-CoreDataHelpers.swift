@@ -15,7 +15,7 @@ extension Project {
         "Midnight", "Dark Gray", "Gray"
     ]
     
-    var projectTitle: String { title ?? "" }
+    var projectTitle: String { title ?? "New Project" }
     var projectDetail: String { detail ?? "" }
     var projectCreationDate: Date { creationDate ?? Date() }
     var projectColor: String { color ?? "Light Blue" }
