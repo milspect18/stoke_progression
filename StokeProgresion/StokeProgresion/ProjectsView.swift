@@ -36,7 +36,7 @@ struct ProjectsView: View {
                 ForEach(projects.wrappedValue) { project in
                     Section(header: ProjectHeaderView(project: project)) {
                         ForEach(project.projectItems(using: sortOrder)) { item in
-                            ItemRowView(project: project, item: item)
+                            ItemRowView(project: project,  item: item)
                         }
                         .onDelete { offsets in
                             let allItems = project.allItems
