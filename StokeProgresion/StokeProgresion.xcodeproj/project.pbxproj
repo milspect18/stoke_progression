@@ -23,6 +23,7 @@
 		E34FF56F276FDC4000336D72 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FF56E276FDC4000336D72 /* ProjectsView.swift */; };
 		E37A262A2794BA0D005A51A1 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37A26292794BA0D005A51A1 /* SelectSomethingView.swift */; };
 		E3862FE82798C41B001E216B /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3862FE72798C41B001E216B /* Bundle-Decodable.swift */; };
+		E3862FEA2798CB0A001E216B /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = E3862FE92798CB0A001E216B /* Awards.json */; };
 		E38E7A8D277B511C00EF447B /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38E7A8C277B511C00EF447B /* Sequence-Sorting.swift */; };
 		E3AF29B527761D190005657E /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AF29B427761D190005657E /* ProjectHeaderView.swift */; };
 		E3AF29B7277620480005657E /* colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AF29B6277620480005657E /* colors.xcassets */; };
@@ -49,6 +50,7 @@
 		E34FF56E276FDC4000336D72 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		E37A26292794BA0D005A51A1 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
 		E3862FE72798C41B001E216B /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		E3862FE92798CB0A001E216B /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
 		E38E7A8C277B511C00EF447B /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
 		E3AF29B427761D190005657E /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		E3AF29B6277620480005657E /* colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = colors.xcassets; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				E34FF558276FCBF800336D72 /* Assets.xcassets */,
 				E34FF55A276FCBF800336D72 /* Preview Content */,
 				E3862FE72798C41B001E216B /* Bundle-Decodable.swift */,
+				E3862FE92798CB0A001E216B /* Awards.json */,
 			);
 			path = StokeProgresion;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3AF29B7277620480005657E /* colors.xcassets in Resources */,
+				E3862FEA2798CB0A001E216B /* Awards.json in Resources */,
 				E34FF55C276FCBF800336D72 /* Preview Assets.xcassets in Resources */,
 				E34FF559276FCBF800336D72 /* Assets.xcassets in Resources */,
 			);
