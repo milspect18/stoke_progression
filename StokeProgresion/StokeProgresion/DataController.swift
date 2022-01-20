@@ -79,4 +79,27 @@ class DataController: ObservableObject {
         let projectBatchDelete = NSBatchDeleteRequest(fetchRequest: Project.fetchRequest())
         _ = try? self.container.viewContext.execute(projectBatchDelete)
     }
+    
+    func count<T>(for request: NSFetchRequest<T>) -> Int {
+        let count = try? container.viewContext.count(for: request)
+        
+        return count ?? 0
+    }
+    
+    func hasEarned(award: Award) -> Bool {
+        switch award.criterion {
+        case "items":
+            let fetchRequest = NSFetchRequest<Item>(entityName: "Item")
+            let awardCount = count(for: fetchRequest)
+            return awardCount >= award.value
+        case "complete":
+            let fetchRequest = NSFetchRequest<Item>(entityName: "Item")
+            fetchRequest.predicate = NSPredicate(format: "completed = true")
+            let awardCount = count(for: fetchRequest)
+            return awardCount >= award.value
+        default:
+//            fatalError("Unknown award criterion: \(award.criterion)")
+            return false
+        }
+    }
 }
