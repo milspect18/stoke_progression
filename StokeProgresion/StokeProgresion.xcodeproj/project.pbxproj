@@ -30,6 +30,7 @@
 		E3AF29B527761D190005657E /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AF29B427761D190005657E /* ProjectHeaderView.swift */; };
 		E3AF29B7277620480005657E /* colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3AF29B6277620480005657E /* colors.xcassets */; };
 		E3AF29B9277621A80005657E /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AF29B8277621A80005657E /* EditProjectView.swift */; };
+		E3F2FD0127A738AB00C086AC /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F2FD0027A738AB00C086AC /* Color-Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		E3AF29B427761D190005657E /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		E3AF29B6277620480005657E /* colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = colors.xcassets; sourceTree = "<group>"; };
 		E3AF29B8277621A80005657E /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
+		E3F2FD0027A738AB00C086AC /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				E3862FE92798CB0A001E216B /* Awards.json */,
 				E3862FEB2798CB8A001E216B /* Award.swift */,
 				E3862FED2798CC27001E216B /* AwardsView.swift */,
+				E3F2FD0027A738AB00C086AC /* Color-Additions.swift */,
 			);
 			path = StokeProgresion;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				E3862FEE2798CC27001E216B /* AwardsView.swift in Sources */,
 				E34FF557276FCBF800336D72 /* ContentView.swift in Sources */,
 				E32B81932773FBBA00EDD725 /* Project-CoreDataHelpers.swift in Sources */,
+				E3F2FD0127A738AB00C086AC /* Color-Additions.swift in Sources */,
 				E3AF29B9277621A80005657E /* EditProjectView.swift in Sources */,
 				E34FF566276FD09900336D72 /* DataController.swift in Sources */,
 				E37A262A2794BA0D005A51A1 /* SelectSomethingView.swift in Sources */,
